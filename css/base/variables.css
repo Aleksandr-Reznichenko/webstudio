@@ -1,0 +1,22 @@
+:root {
+  /* ======= typography ======= */
+  --font-primary: 'Roboto', sans-serif;
+  --font-secondary: 'Raleway', sans-serif;
+
+  /* ======= colors ======= */
+  --color-bg-body: #ffffff;
+  --color-bg-hero: rgba(46, 47, 66, 0.7);
+  --color-bg-feature-item: #f4f4fd;
+  --color-bg-team: #f4f4fd;
+  --color-bg-footer: #2e2f42;
+
+  --color-text-primary: #2e2f42;
+  --color-text-secondary: #434455;
+
+  --color-accent: #4d5ae5;
+  --color-state-primary: #404bbf;
+  --color-state-secondary: #31d0aa;
+
+  --color-line: #e7e9fc;
+  --color-border-feature-item: #8e8f99;
+}
