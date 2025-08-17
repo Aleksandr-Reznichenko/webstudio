@@ -1,2 +1,45 @@
 body {
+  font-family: var(--font-prymary);
+  background-color: var(--color-bg-body);
+  color: var(--color-text-secondary);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-block: 0;
+}
+
+ul,
+ol {
+  margin-block: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* 
+button {
+  cursor: pointer;
+} 
+  */
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style-type: none;
 }
