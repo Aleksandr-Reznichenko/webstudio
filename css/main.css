@@ -1,9 +1,9 @@
 /* ======= base ======= */
-@import './base/global.css';
 @import './base/variables.css';
-@import './base/visually-hidden.css';
+@import './base/global.css';
 @import './base/container.css';
 @import './base/section.css';
+@import './base/visually-hidden.css';
 
 /* ======= layout ======= */
 @import './layout/header.css';
