@@ -3,7 +3,81 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Modern-normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@100..900&display=swap"
+      rel="stylesheet" />
+
     <title>WebStudio</title>
+
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
-  <body></body>
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <div class="container header__container">
+        <!-- logotype -->
+        <a class="logo header__logo link" href="/index.html">
+          web<span class="header__logo--accent">studio</span>
+        </a>
+
+        <!-- navigation -->
+        <nav class="header__nav">
+          <ul class="header__nav-list list">
+            <li class="header__nav-item">
+              <a class="header__nav-link header__nav-link--active link" href="">
+                Studio
+              </a>
+            </li>
+            <li class="header__nav-item">
+              <a class="header__nav-link link" href="">Portfolio</a>
+            </li>
+            <li class="header__nav-item">
+              <a class="header__nav-link link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- mobile menu -->
+        <button class="header__menu-btn">
+          <svg
+            class="header__menu-icon"
+            width="24"
+            height="24"
+            aria-label="burger menu icon">
+            <use href="./images/icons.svg#icon-burger-menu"></use>
+          </svg>
+        </button>
+
+        <!-- contact info -->
+        <address class="header__contact">
+          <ul class="header__contact-list list">
+            <li class="header__contact-item">
+              <a
+                class="header__contact-link link"
+                href="mailto:info@devstudio.com">
+                info@devstudio.com
+              </a>
+            </li>
+            <li class="header__contact-item">
+              <a class="header__contact-link link" href="tel:+110001111111">
+                +11 (000) 111-11-11
+              </a>
+            </li>
+          </ul>
+        </address>
+      </div>
+    </header>
+  </body>
 </html>
