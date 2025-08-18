@@ -30,11 +30,12 @@ img {
   height: auto;
 }
 
-/* 
 button {
   cursor: pointer;
-} 
-  */
+  border: none;
+  padding: 0;
+  line-height: 0;
+}
 
 .link {
   text-decoration: none;

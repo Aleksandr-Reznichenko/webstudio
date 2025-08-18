@@ -12,6 +12,7 @@
 
   --color-text-primary: #2e2f42;
   --color-text-secondary: #434455;
+  --color-text-light: #ffffff;
 
   --color-accent: #4d5ae5;
   --color-state-primary: #404bbf;
@@ -19,4 +20,8 @@
 
   --color-line: #e7e9fc;
   --color-border-feature-item: #8e8f99;
+
+  /* transition */
+  --duration: 250ms;
+  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
