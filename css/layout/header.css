@@ -32,6 +32,7 @@
   width: 24px;
   height: 24px;
   background-color: transparent;
+  fill: var(--color-burger-icon);
 }
 
 /* ======= TABLET ======= */
@@ -60,6 +61,8 @@
   .header__nav-link {
     position: relative;
     padding-block: 24px;
+
+    font-family: var(--font-primary);
     font-weight: 500;
     color: var(--color-text-primary);
   }
@@ -90,6 +93,7 @@
   }
 
   .header__contact-item {
+    font-family: var(--font-primary);
     font-size: 12px;
     line-height: 1.16667;
     letter-spacing: 0.04em;
