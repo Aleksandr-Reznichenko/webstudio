@@ -35,3 +35,13 @@
   letter-spacing: 0.04em;
   background-color: var(--color-accent);
 }
+
+.close-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
