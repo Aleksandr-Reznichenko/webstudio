@@ -21,6 +21,8 @@
   --color-line: #e7e9fc;
   --color-border-feature-item: #8e8f99;
 
+  --color-social-icon: #f4f4fd;
+
   /* transition */
   --duration: 250ms;
   --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
