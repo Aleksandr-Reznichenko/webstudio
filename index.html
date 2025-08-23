@@ -51,7 +51,11 @@
         </nav>
 
         <!-- mobile menu -->
-        <button class="header__menu-btn">
+        <button
+          class="header__menu-btn js-open-menu"
+          type="button"
+          aria-controls="mobile-menu"
+          aria-expanded="false">
           <svg
             class="header__menu-icon"
             width="24"
@@ -82,9 +86,11 @@
     </header>
 
     <!-- MOBILE MENU -->
-    <div class="mobile-menu">
+    <div class="mobile-menu js-menu-container" id="mobile-menu">
       <!-- close button -->
-      <button class="close-btn mobile-menu__close-btn" type="button">
+      <button
+        class="close-btn mobile-menu__close-btn js-close-menu"
+        type="button">
         <svg
           class="mobile-menu__close-icon"
           width="8"
@@ -200,5 +206,7 @@
         </ul>
       </div>
     </div>
+
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
