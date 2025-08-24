@@ -12,7 +12,8 @@
 
 /* ======= title ======= */
 
-.title-section {
+.section-title {
+  font-family: var(--font-primary);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -20,7 +21,8 @@
   color: var(--color-text-primary);
 }
 
-.title-subsection {
+.subsection-title {
+  font-family: var(--font-primary);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;

@@ -8,6 +8,7 @@
 /* ======= layout ======= */
 @import './layout/header.css';
 @import './layout/hero.css';
+@import './layout/feature.css';
 
 @import './layout/mobile-menu.css';
 @import './layout/modal-window.css';
