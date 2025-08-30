@@ -109,6 +109,15 @@
   .hero__title {
     margin-bottom: 48px;
   }
+
+  .hero__button {
+    transition: background-color var(--duration) var(--timing-function);
+  }
+
+  .hero__button:hover,
+  .hero__button:focus {
+    background-color: var(--color-state-primary);
+  }
 }
 
 /* bg-image @2x for desktop */
