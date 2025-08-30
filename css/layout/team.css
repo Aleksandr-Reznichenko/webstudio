@@ -1,3 +1,5 @@
+/* ======= MOBILE ======= */
+
 .team {
   background-color: var(--color-bg-team);
 }
@@ -43,6 +45,8 @@
   fill: var(--color-social-icon);
 }
 
+/* ======= TABLET ======= */
+
 @media screen and (min-width: 768px) {
   .team__list {
     flex-direction: row;
@@ -56,6 +60,8 @@
     width: calc((100% - 24px) / 2);
   }
 }
+
+/* ======= DESKTOP ======= */
 
 @media screen and (min-width: 1158px) {
   .team__item {
