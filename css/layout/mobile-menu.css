@@ -92,11 +92,6 @@
     column-gap: 40px;
   }
 
-  .mobile-menu__social-item {
-    border-radius: 50%;
-    background-color: var(--color-accent);
-  }
-
   .mobile-menu__social-link {
     display: flex;
     justify-content: center;
