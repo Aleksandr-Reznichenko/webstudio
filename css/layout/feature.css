@@ -1,5 +1,5 @@
 @media screen and (max-width: 1157px) {
-  .feature__box-icon {
+  .feature__icon-box {
     display: none;
   }
 
@@ -57,7 +57,7 @@
     flex-wrap: nowrap;
   }
 
-  .feature__box-icon {
+  .feature__icon-box {
     display: flex;
     justify-content: center;
     align-items: center;
