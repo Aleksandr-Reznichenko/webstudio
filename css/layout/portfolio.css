@@ -1,0 +1,106 @@
+@media screen and (max-width: 1157px) {
+  .portfolio__overlay {
+    display: none;
+  }
+}
+/* ======= MOBILE ======= */
+
+.portfolio__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 48px;
+}
+
+.portfolio__img {
+  width: 288px;
+  height: 280px;
+  background-color: var(--color-bg-no-img);
+}
+
+.portfolio__content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+
+  padding: 32px 16px;
+
+  border-right: 1px solid var(--color-line);
+  border-bottom: 1px solid var(--color-line);
+  border-left: 1px solid var(--color-line);
+
+  background-color: var(--color-bg-portfolio-card);
+  box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
+}
+
+/* ======= TABLET ======= */
+
+@media screen and (min-width: 768px) {
+  .portfolio__list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+  }
+
+  .portfolio__item {
+    width: calc((100% - 24px) / 2);
+  }
+
+  .portfolio__img {
+    width: 356px;
+    height: 300px;
+  }
+
+  .portfolio__content {
+    box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  }
+}
+
+/* ======= DESKTOP ======= */
+
+@media screen and (min-width: 1158px) {
+  .portfolio__list {
+    row-gap: 48px;
+  }
+
+  .portfolio__item {
+    width: calc((100% - 48px) / 3);
+  }
+
+  .portfolio__item:hover,
+  .portfolio__item:focus {
+    box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08),
+      0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
+  }
+
+  .portfolio__img-wrap {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .portfolio__img {
+    width: 360px;
+  }
+
+  .portfolio__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    padding: 40px 32px;
+    transform: translateY(100%);
+    transition: transform var(--duration) var(--timing-function);
+
+    color: var(--color-text-overlay);
+    background-color: rgba(77, 90, 229, 0.8);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(8px);
+  }
+
+  .portfolio__item:hover .portfolio__overlay,
+  .portfolio__item:focus .portfolio__overlay {
+    transform: translateY(0);
+  }
+}
