@@ -9,11 +9,14 @@
   --color-bg-feature-item: #f4f4fd;
   --color-bg-team: #f4f4fd;
   --color-bg-team-card: #ffffff;
+  --color-bg-portfolio-card: #ffffff;
   --color-bg-footer: #2e2f42;
+  --color-bg-no-img: #f4f4fd;
 
   --color-text-primary: #2e2f42;
   --color-text-secondary: #434455;
   --color-text-light: #ffffff;
+  --color-text-overlay: #f4f4fd;
 
   --color-accent: #4d5ae5;
   --color-state-primary: #404bbf;
