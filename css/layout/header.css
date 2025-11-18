@@ -23,7 +23,7 @@
 }
 
 /* logotype */
-.header__logo--accent {
+.logo__accent {
   color: var(--color-text-primary);
 }
 
