@@ -157,6 +157,10 @@
     margin-right: 120px;
   }
 
+  .footer__logo {
+    width: fit-content;
+  }
+
   /* social media */
   .footer__social {
     margin-right: auto;
