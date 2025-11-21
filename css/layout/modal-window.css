@@ -151,7 +151,7 @@
   column-gap: 8px;
 }
 
-.modal-checkmark {
+.modal__checkmark {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -170,13 +170,13 @@
     fill var(--duration) var(--timing-function);
 }
 
-.modal__checkbox:checked + .modal__privacy-label > .modal-checkmark {
+.modal__checkbox:checked + .modal__privacy-label > .modal__checkmark {
   background-color: var(--color-state-primary);
   border: none;
   fill: var(--color-checkmark-icon);
 }
 
-.modal__checkbox:focus + .modal__privacy-label > .modal-checkmark {
+.modal__checkbox:focus + .modal__privacy-label > .modal__checkmark {
   outline: 1px solid var(--color-accent);
 }
 
