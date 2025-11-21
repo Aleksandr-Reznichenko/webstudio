@@ -20,6 +20,7 @@
   --color-text-light: #ffffff;
   --color-text-overlay: #f4f4fd;
   --color-text-footer: #f4f4fd;
+  --color-text-modal: #8e8f99;
 
   --color-accent: #4d5ae5;
   --color-state-primary: #404bbf;
@@ -28,9 +29,11 @@
   --color-line: #e7e9fc;
   --color-border-close-btn: #d0d2e3;
   --color-border-feature-item: #8e8f99;
+  --color-border-modal: rgba(46, 47, 66, 0.4);
 
   --color-social-icon: #f4f4fd;
   --color-burger-icon: #2f2f37;
+  --color-checkmark-icon: #f4f4fd;
 
   /* transition */
   --duration: 250ms;
