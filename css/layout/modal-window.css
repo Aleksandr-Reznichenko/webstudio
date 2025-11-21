@@ -105,6 +105,10 @@
   border: 1px solid var(--color-accent);
 }
 
+.modal__input {
+  height: 40px;
+}
+
 .modal__field-icon {
   position: absolute;
   top: 50%;
@@ -122,6 +126,10 @@
   padding-left: 16px;
   height: 120px;
   resize: none;
+}
+
+.modal__message::placeholder {
+  opacity: 0.5;
 }
 
 /* checkbox - privacy policy */
@@ -172,4 +180,15 @@
   line-height: 1.33;
   text-decoration-skip-ink: none;
   color: var(--color-accent);
+}
+
+/* ======= TABLET ======= */
+
+@media screen and (min-width: 768px) {
+  .modal {
+    padding-left: 24px;
+    padding-right: 24px;
+    max-width: 408px;
+    max-height: 584px;
+  }
 }
