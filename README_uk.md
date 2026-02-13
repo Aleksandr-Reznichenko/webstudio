@@ -1,4 +1,4 @@
-# WebStudio — Креативна агенція
+# WebStudio - Креативна агенція
 
 **🇺🇦 Українською** | **[English](README_en.md)**
 
